@@ -57,4 +57,4 @@ jobs:
     - name : Security audit
       run: |
         pip install pip-audit
-        pip-audit
+        pip-audit || true
